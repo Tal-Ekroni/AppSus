@@ -1,0 +1,111 @@
+.add-email p, label {
+  padding: 0;
+  margin: 0;
+}
+
+.add-email input {
+  border: none;
+  outline: none;
+}
+
+.add-email {
+  background-color: white;
+  position: fixed;
+  top: 27px;
+  right: 81px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 70px;
+  font-family: Poppins;
+  font-weight: bold;
+  width: 600px;
+  box-shadow: 0px 0px 14px -3px rgba(0, 0, 0, 0.68);
+  transform:translateX(-50%) ,translateY(-50%)
+}
+
+.add-email p {
+  background-color: rgb(73, 73, 73);
+  color: white;
+}
+
+.add-email label {
+  font-weight: lighter;
+  font-size: 0.8rem;
+  margin: 2px;
+}
+
+.compose-input {
+  display: flex;
+}
+
+.compose-input.to {
+  border-bottom: 1px solid rgb(145, 145, 145)
+}
+
+.add-email textarea {
+  outline: none;
+  resize: none;
+  border: none;
+  border-top: 1px solid rgb(145, 145, 145);
+}
+
+.subject-label, .to-label {
+  color: rgb(145, 145, 145);
+}
+
+.add-email .compose-edit-btns {
+  justify-content: space-between;
+}
+
+.compose-dlt-btn {
+  font-family: Solids;
+  border: none;
+  background-color: inherit;
+  margin: -7px 0px 4px 4px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.compose-dlt-btn::before {
+  content: '\f2ed';
+}
+
+.compose-send-btn {
+  font-family: Lato;
+  border: none;
+  outline: none;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 5%;
+  margin: -7px 2px 4px 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.fade-in {
+  animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeOut ease 1s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

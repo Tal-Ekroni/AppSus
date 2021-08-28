@@ -1,0 +1,12 @@
+.search-list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-list-container{gap: 10px;}
+
+.search-list-container button{
+    border: none;
+    cursor: pointer;
+}

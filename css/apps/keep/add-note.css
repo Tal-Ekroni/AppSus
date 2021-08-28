@@ -1,0 +1,11 @@
+.note-input {
+    margin:0 auto;
+    padding: 15px;
+    width: 300px;
+    border-radius: 3rem;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-family: Poppins;
+}
+

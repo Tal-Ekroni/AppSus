@@ -1,0 +1,90 @@
+.side-bar {
+    flex-direction: column;
+    height: 50px;
+}
+
+.search-email-lbl {
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+.compose-btn {
+    font-family: Solids;
+    background-color: inherit;
+    border: none;
+    color: rgb(44, 44, 44);
+    padding: 6px 8px;
+    font-size: 1.625rem;
+    cursor: pointer;
+}
+
+.side-bar button {
+    font-family: Poppins;
+    background-color: inherit;
+    border: none;
+    color: black;
+    font-size: 0.90rem;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    margin-bottom: 5px;
+    padding: 0;
+    align-self: flex-start;
+}
+
+.side-bar button:hover {
+    opacity: 0.2;
+}
+
+.side-bar input, select {
+    font-family: Poppins;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.side-bar label {
+    font-family: Poppins;
+    text-align: center;
+}
+
+.curr-folder {
+    border-bottom: 1px solid rgb(160, 160, 160);
+    margin-bottom: 5px;
+    transition: opacity 0.2s;
+}
+.curr-folder label{
+    font-weight: bold;
+}
+.curr-folder span{
+    margin-left: 3px;
+    text-transform: capitalize;
+    font-family: Poppins;
+
+}
+
+.compose-btn {
+    padding: 1rem !important;
+    align-self: center !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-image: url(https://www.gstatic.com/images/icons/material/colored_icons/2x/create_32dp.png);
+}
+
+.inbox::before {
+    font-family: Solids;
+    content: '\f01c';
+    margin-right: 20px;
+}
+
+.stared::before {
+    font-family: Solids;
+    content: '\f005';
+    margin-right: 20px;
+}
+
+.sent::before {
+    font-family: Solids;
+    content: '\f064';
+    margin-right: 20px;
+}

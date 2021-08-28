@@ -1,0 +1,71 @@
+.subject-container {
+    justify-content: space-between;
+}
+
+.toggle-is-read {
+    font-family: Solids;
+    background-color: inherit;
+    border: none;
+    color: rgb(44, 44, 44);
+    /* padding: 6px 8px; */
+    font-size: 1.562rem;
+    cursor: pointer;
+}
+
+.toggle-is-read.read::before {
+    content: '\f2b6';
+}
+
+.toggle-is-read.unread::before {
+    content: '\f0e0';
+}
+
+.mail-preview {
+    max-width: 850px;
+    align-items: center;
+    /* position: relative; */
+    border-bottom: 1px solid black;
+    transition: opacity 0.3s ease-in-out;
+    justify-content: space-between;
+}
+
+.mail-preview:hover {
+    opacity: 0.2;
+}
+
+.subject-preview {
+    text-transform: capitalize;
+    margin-inline-end: 100px;
+    font-family: Poppins;
+    font-size: 0.64rem;
+    /* width: 100%; */
+}
+
+.from-preview {
+    display: flex;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-inline-end: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    align-items: center;
+}
+
+.time-read-preview {
+    font-weight: bold;
+    align-self: flex-end;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* position: absolute;
+    right: 0px; */
+}
+
+.isStar::before {
+    font-family: Solids;
+    content: '\f005';
+}
+
+.notStar::before {
+    font-family: Regular;
+    content: '\f005';
+}

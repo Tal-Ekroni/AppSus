@@ -1,0 +1,43 @@
+.mails-list {
+    order: 1;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.mails-list ul {
+    margin: 0;
+    margin-right: 30px;
+}
+
+.mails-list li {
+    min-width:70vw;
+    height: 50px;
+}
+
+.mails-list h3 {
+    margin: 0;
+}
+
+.mail-list-holder {
+    border-bottom: none;
+}
+
+.mails-list::-webkit-scrollbar {
+    width: 10px;
+    transition: background 1s;
+}
+
+.mails-list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.mails-list::-webkit-scrollbar-thumb {
+    background: rgb(124, 122, 122);
+    border-radius: 10px;
+}
+
+.mails-list::-webkit-scrollbar-thumb:hover {
+    background: #afafaf;
+}
+

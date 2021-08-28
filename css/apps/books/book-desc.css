@@ -1,0 +1,19 @@
+.book-desc{
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 0;
+} 
+.book-desc{
+    font-family:cursive;
+    letter-spacing: 0;
+    text-align: center;
+}
+.book-desc span{
+    font-size: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+    color: rgb(66, 66, 66);
+}
+.book-desc span:hover {
+    color: rgb(121, 121, 121);
+}

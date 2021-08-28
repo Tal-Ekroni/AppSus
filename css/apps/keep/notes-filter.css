@@ -1,0 +1,17 @@
+.notes-filter {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-family: Poppins;
+}
+
+.filter-input {
+  text-align: center;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 3rem;
+  padding: 15px;
+  outline: none;
+  font-family: Poppins;
+}

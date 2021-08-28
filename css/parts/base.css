@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(221, 221, 221, 1) 0%, rgba(188, 230, 247, 1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 1px;
+    padding: 3px;
+}

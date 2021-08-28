@@ -1,0 +1,15 @@
+.book-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.book-review label{
+    margin-bottom:5px;
+}
+
+.book-review textarea {
+    margin-top: 50px;
+}

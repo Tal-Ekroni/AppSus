@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Brands;
+    src: url('../assests/fonts/Awesome/fa-brands-400.ttf');
+}
+
+@font-face {
+    font-family: Solids;
+    src: url('../assests/fonts/Awesome/fa-solid-900.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('../assests/fonts/Poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: Regular;
+    src: url('../assests/fonts/Awesome/fa-regular-400.ttf');
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../assests/fonts/Lato/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: Aquire;
+    src: url('../assests/fonts/Aquire/AquireLight-YzE0o.otf');
+}

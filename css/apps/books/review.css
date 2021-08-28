@@ -1,0 +1,10 @@
+.preview-review {
+    display: flex;
+    max-width: 300px;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 0 auto;
+
+}
